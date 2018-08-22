@@ -1,0 +1,58 @@
+.modal {
+  width: 368px;
+  max-width: 100%;
+
+  border-radius: 6px;
+  background-color: #f7f8fa;
+  box-shadow: 0 4px 8px 0 rgba(33, 39, 54, 0.16);
+  overflow: hidden;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  padding-bottom: 0;
+}
+
+.modal-footer {
+  box-shadow: 0 0 6px 0 rgba(33, 39, 54, 0.16), 0 0 3px 0 rgba(33, 39, 54, 0.08);
+}
+
+.modal-content__upload {
+  margin-top: 16px;
+}
+
+.modal-content__accordion:not(:last-of-type) {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.filters__slider {
+  margin-top: 24px;
+}
+
+.upload-section {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+
+  height: 100px;
+  padding: 32px 50px;
+
+  border-radius: 4px;
+  background: url("../../images/gg-bridge.jpg") no-repeat center;
+  overflow: hidden;
+}
+
+.upload-section:before {
+  content: '';
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  background-color: rgba(33, 39, 54, 0.56);
+}

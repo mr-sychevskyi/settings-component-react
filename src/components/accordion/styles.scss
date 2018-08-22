@@ -1,0 +1,25 @@
+.accordion {
+  padding: 24px 0;
+  animation: fadeEffect .5s ease-in;
+
+  &__summary {
+    display: flex;
+    align-items: center;
+  }
+
+  &__title {
+    margin-left: 8px;
+  }
+
+  &__details {
+    margin-top: 16px;
+
+    display: none;
+    overflow: hidden;
+    animation: fadeEffect .5s ease-in;
+
+    &_expanded {
+      display: block;
+    }
+  }
+}

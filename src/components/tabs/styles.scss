@@ -1,0 +1,23 @@
+.tabs.tabs-outer {
+  & > .tabs__navbar {
+    padding: 0 24px;
+  }
+
+  & > .tabs__content {
+    padding: 16px 24px;
+    padding-bottom: 0;
+
+    background-color: #fff;
+    box-shadow: 0 0 6px 0 rgba(33, 39, 54, 0.16), 0 0 3px 0 rgba(33, 39, 54, 0.08);
+  }
+}
+
+.tabs.tabs-inner {
+  & > .tabs__navbar {
+    display: flex;
+
+    border-radius: 3px;
+    border: 1px solid #c5cbd6;
+    overflow: hidden;
+  }
+}

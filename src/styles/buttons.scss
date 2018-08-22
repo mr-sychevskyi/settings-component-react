@@ -1,0 +1,58 @@
+.btn {
+  display: inline-flex;
+  font-family: 'SFProText', 'Arial', sans-serif;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all .4s;
+  z-index: 100;
+}
+
+.btn-icon {
+  align-items: center;
+  justify-content: center;
+
+  .btn__text {
+    margin-left: 8px;
+  }
+}
+
+.btn__icon {
+  width: 16px;
+  height: 12px;
+  fill: #464c5c;
+}
+
+.btn-upload  {
+  padding: 8px 16px;
+  width: 102px;
+  max-width: 100%;
+
+  border-radius: 4px;
+  background-color: #fff;
+  border: solid 1px #c5cbd6;
+}
+
+.btn-position {
+  padding: 10px 0;
+  text-align: center;
+  background-color: #f7f8fa;
+  border: 1px solid transparent;
+}
+
+.btn-w-100 {
+  width: 100%;
+}
+
+// BUTTONS_HOVER
+.btn-close:hover {
+  transform: rotate(90deg);
+}
+
+.btn-upload:hover {
+  background-color: darken(#fff, 15%);
+}
+
+.btn-position:hover {
+  background-color: #dfe2e8;
+  border: 1px solid #c5cbd6;
+}
