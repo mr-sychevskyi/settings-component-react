@@ -57,7 +57,6 @@ const Modal = () => (
                                 <ColorSelect title="Solid" label="solid"/>
                                 <ColorSelect title="Gradient" label="gradient"/>
                             </Accordion>
-                            <SvgLibrary/>
                         </Tab>
                         <Tab label="Video">
                             <p className="dummy-content">Video Settings Tab</p>
@@ -73,6 +72,7 @@ const Modal = () => (
                 <Icon title="fix"/>
             </Button>
         </footer>
+		<SvgLibrary/>
     </div>
 );
 
